@@ -29,7 +29,6 @@ export interface GalleryImage {
 }
 
 interface CloudinaryResource {
-  asset_id: string;
   public_id: string;
   secure_url: string;
   width: number;
