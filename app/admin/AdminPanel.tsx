@@ -167,7 +167,8 @@ export default function AdminPanel({ images }: { images: GalleryImage[] }) {
                 </div>
                 <button
                   onClick={() => handleDelete(img.id)}
-                  className="absolute bottom-2 right-2 rounded-full bg-black/60 px-3 py-1 text-xs font-medium text-white opacity-0 transition group-hover:opacity-100"
+                  aria-label="Delete photo"
+                  className="absolute bottom-2 right-2 rounded-full bg-black/70 px-3 py-1.5 text-xs font-medium text-white shadow-md transition active:scale-95"
                 >
                   Delete
                 </button>
